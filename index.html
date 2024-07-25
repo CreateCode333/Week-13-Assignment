@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h2 class="mb-4">CRD Application</h2>
+  
+      <!-- Belos is the code that creates a Form to add a new task -->
+      <form id="taskForm">
+        <div class="form-group">
+          <label for="taskTitle">New Task:</label>
+          <input type="text" class="form-control" id="taskTitle" required>
+        </div>
+        <button type="submit" class="btn btn-success">Add Task</button>
+      </form>
+  
+      <hr>
+  
+      <!-- Task List -->
+      <div id="taskList"></div>
+    </div>
+  
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+
+
+
